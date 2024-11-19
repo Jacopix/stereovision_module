@@ -407,19 +407,6 @@
             "description": ""
         },
         { 
-            "name": "e-CAM81_CUNX", 
-            "link": "https://www.e-consystems.com/nvidia-cameras/jetson-orin-nx-cameras/ar0821-4k-hdr-camera.asp",
-            "price": "199",
-            "pixel_width": "2.1",
-            "pixel_heigth": "2.1",
-            "sensor_width": "3848",
-            "sensor_heigth": "2168",
-            "hfov": "104.8",
-            "sensitivity": "",
-            "shutter": "rolling",
-            "description": ""
-        },
-        { 
             "name": "NileCAM20_CUNX", 
             "link": "https://www.e-consystems.com/nvidia-cameras/jetson-xavier-nx-cameras/ar0230-full-hd-gmsl2-hdr-camera.asp",
             "price": "449",
@@ -440,10 +427,10 @@
             "pixel_heigth": "2.9",
             "sensor_width": "1937",
             "sensor_heigth": "1097",
-            "hfov": "121.35",
+            "hfov": "113",
             "sensitivity": "",
             "shutter": "rolling",
-            "description": "acutally it's listed only DFOV"
+            "description": ""
         },
         { 
             "name": "e-CAM23_CUNX", 
@@ -456,7 +443,7 @@
             "hfov": "71.6",
             "sensitivity": "",
             "shutter": "global",
-            "description": "acutally it's listed only DFOV"
+            "description": "58.06"
         },
         { 
             "name": "B0482", 
@@ -474,12 +461,12 @@
          { 
             "name": "e-CAM30_CUNANO", 
             "link": "https://www.e-consystems.com/nvidia-cameras/jetson-nano-cameras/e-CAM30_CUNANO.asp" ,
-            "price": "",
-            "pixel_width": "",
-            "pixel_heigth": "",
-            "sensor_width": "",
-            "sensor_heigth": "",
-            "hfov": "",
+            "price": "79",
+            "pixel_width": "2.2",
+            "pixel_heigth": "2.2",
+            "sensor_width": "2304",
+            "sensor_heigth": "1536",
+            "hfov": "96",
             "sensitivity": "",
             "shutter": "",
             "description": ""

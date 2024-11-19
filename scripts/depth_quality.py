@@ -5,21 +5,21 @@ import matplotlib.gridspec as gridspec
 
 
 # Axis options
-MAX_X = 20000   # [mm]
-MAX_Y = 1500      # [mm]
+MAX_X = 10000   # [mm]
+MAX_Y = 100      # [mm]
 
 # ZED 2i stereocamera (model 1)
 #
 # Error expectations: 
 #   < 0.8% @ 2m
 #   < 4.0% @ 12m    
-init_p_width    = 2     # um
-init_p_heigth   = 2     # um
-init_s_width    = 2688  # pixels
-init_s_heigth   = 1520  # pixels
-init_hfov       = 110    # degrees
-init_baseline   = 120   # mm
-init_disparity  = 1     # pixels
+# init_p_width    = 2     # um
+# init_p_heigth   = 2     # um
+# init_s_width    = 2688  # pixels
+# init_s_heigth   = 1520  # pixels
+# init_hfov       = 110    # degrees
+# init_baseline   = 120   # mm
+# init_disparity  = 1     # pixels
 
 # ZED 2i stereocamera (model 2)
 #
@@ -45,6 +45,18 @@ init_disparity  = 1     # pixels
 # init_hfov       = 57.6    # degrees (nominal is 90°, considering 64% -> 57.6°)
 # init_baseline   = 50   # mm
 # init_disparity  = 1     # pixels
+
+# e-CAM30_CUNANO 
+#
+init_p_width    = 2.2     # um
+init_p_heigth   = 2.2     # um
+init_s_width    = 2304  # pixels
+init_s_heigth   = 1536  # pixels
+init_hfov       = 96    # degrees
+init_baseline   = 50   # mm
+init_disparity  = 1     # pixels
+
+
 
 # sensor size (diagonal) function [px]
 def get_diag_px(s_width, s_heigth):
